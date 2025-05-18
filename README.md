@@ -46,7 +46,7 @@ pip install -r requirements.txt
 psycopg2-binary
 ```
 
-### ▶️ Run ingestion:
+### Run ingestion:
 
 ```bash
 python ingest.py
@@ -60,15 +60,15 @@ This script:
 
 ---
 
-## 📊 3. How to run dbt (`dbt run`, `dbt test`, `dbt docs serve`)
+## 3. How to run dbt (`dbt run`, `dbt test`, `dbt docs serve`)
 
-### 📁 Move into dbt project:
+### Move into dbt project:
 
 ```bash
 cd katapay_dbt
 ```
 
-### ▶️ Run dbt:
+### Run dbt:
 
 ```bash
 dbt run         # Builds fact_transactions and dim_time
@@ -79,9 +79,9 @@ dbt docs serve  # Opens docs in browser at http://localhost:8000
 
 ---
 
-## 📈 4. How to view the dashboard in Metabase
+## 4. How to view the dashboard in Metabase
 
-### 🔌 First-time Metabase setup
+### First-time Metabase setup
 
 1. Visit [http://localhost:3000](http://localhost:3000)
 2. Create admin account
@@ -107,7 +107,7 @@ Use that IP as host.
 
 ---
 
-### 📊 Building a chart
+### Building a chart
 
 1. Go to **Browse data** → `katapay` → `fact_transactions`
 2. Click **+ New → Simple Question**
