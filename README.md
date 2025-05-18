@@ -122,3 +122,7 @@ Use that IP as host.
    [settlements] / [authorizations]
    ```
 7. Save chart to a dashboard
+
+## Dashboard Preview
+
+![Dashboard](visualdiagram.jpeg)
