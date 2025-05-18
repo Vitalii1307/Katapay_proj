@@ -1,0 +1,9 @@
+{
+  "event_id": "e3e4492a-ee92-446a-a2bd-277e605e2d41",
+  "event_type": "settlement",
+  "timestamp": "2025-04-30T15:35:28Z",
+  "user_id": "user_1",
+  "provider_id": "provider_5",
+  "amount": 387.25,
+  "currency": "USD"
+}

@@ -1,0 +1,9 @@
+{
+  "event_id": "0a981052-3848-4582-8e21-4da8644c6625",
+  "event_type": "refund",
+  "timestamp": "2025-04-30T16:30:56Z",
+  "user_id": "user_5",
+  "provider_id": "provider_1",
+  "amount": 670.18,
+  "currency": "USD"
+}

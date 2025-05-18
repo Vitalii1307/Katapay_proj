@@ -1,0 +1,9 @@
+{
+  "event_id": "0890387d-8136-40f7-9553-f496b958ae37",
+  "event_type": "authorization",
+  "timestamp": "2025-04-30T14:42:56Z",
+  "user_id": "user_63",
+  "provider_id": "provider_6",
+  "amount": 385.93,
+  "currency": "USD"
+}

@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: fact_transactions
+    description: "One row per transaction event"
+    columns:
+      - name: event_id
+        tests:
+          - unique
+          - not_null
+      - name: event_type
+        tests:
+          - accepted_values:
+              values: ['authorization', 'settlement']
+      - name: timestamp
+        tests:
+          - not_null

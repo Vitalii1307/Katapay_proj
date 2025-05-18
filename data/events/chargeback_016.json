@@ -1,0 +1,9 @@
+{
+  "event_id": "1c9ad660-b7be-4c7f-bf53-a8d6ace9afb4",
+  "event_type": "chargeback",
+  "timestamp": "2025-04-30T17:03:56Z",
+  "user_id": "user_67",
+  "provider_id": "provider_9",
+  "amount": 915.14,
+  "currency": "USD"
+}

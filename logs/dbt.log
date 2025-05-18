@@ -1,0 +1,66 @@
+[0m19:48:09.094339 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7daf41b544c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7daf40cf74c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7daf40cf7460>]}
+
+
+============================== 19:48:09.096559 | a27010e2-3469-4d74-83a2-ef904bfa28b9 ==============================
+[0m19:48:09.096559 [info ] [MainThread]: Running with dbt=1.9.4
+[0m19:48:09.097018 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/vetalubuntu/.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init katapay_dbt', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m19:48:09.103142 [debug] [MainThread]: Starter project path: /home/vetalubuntu/Desktop/Projects/Boosta/venv/lib/python3.10/site-packages/dbt/include/starter_project
+[0m19:48:09.104889 [info ] [MainThread]: 
+Your new dbt project "katapay_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m19:48:09.105313 [info ] [MainThread]: Setting up your profile.
+[0m19:49:21.992394 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7817a917c550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7817a831f5e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7817a831f580>]}
+
+
+============================== 19:49:21.994495 | 8a80a91d-6ac8-41bc-8cc0-05ca40ed8ed5 ==============================
+[0m19:49:21.994495 [info ] [MainThread]: Running with dbt=1.9.4
+[0m19:49:21.995094 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': '/home/vetalubuntu/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt init katapay_dbt', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m19:49:22.001270 [info ] [MainThread]: A project called katapay_dbt already exists here.
+[0m19:49:22.002075 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 0.049024843, "process_in_blocks": "0", "process_kernel_time": 0.05201, "process_mem_max_rss": "92268", "process_out_blocks": "8", "process_user_time": 0.888177}
+[0m19:49:22.002475 [debug] [MainThread]: Command `dbt init` succeeded at 19:49:22.002399 after 0.05 seconds
+[0m19:49:22.002791 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7817a917c550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7817a831dd80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7817a831f520>]}
+[0m19:49:22.003107 [debug] [MainThread]: Flushing usage events
+[0m19:49:22.843225 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:49:38.142145 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73699a278550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7369994175e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x736999417580>]}
+
+
+============================== 19:49:38.144455 | 40d9a58d-4f60-4c1f-b890-1e3bce74e202 ==============================
+[0m19:49:38.144455 [info ] [MainThread]: Running with dbt=1.9.4
+[0m19:49:38.145097 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/vetalubuntu/.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt init katapay_dbt', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m19:49:38.151422 [debug] [MainThread]: Starter project path: /home/vetalubuntu/Desktop/Projects/Boosta/venv/lib/python3.10/site-packages/dbt/include/starter_project
+[0m19:49:38.152888 [info ] [MainThread]: 
+Your new dbt project "katapay_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m19:49:38.153233 [info ] [MainThread]: Setting up your profile.
+[0m19:50:43.600955 [info ] [MainThread]: Profile katapay_dbt written to /home/vetalubuntu/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m19:50:43.602761 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 65.5038, "process_in_blocks": "0", "process_kernel_time": 0.041994, "process_mem_max_rss": "96432", "process_out_blocks": "72", "process_user_time": 0.950877}
+[0m19:50:43.603236 [debug] [MainThread]: Command `dbt init` succeeded at 19:50:43.603133 after 65.50 seconds
+[0m19:50:43.603555 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73699a278550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x736999417520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x736999415d80>]}
+[0m19:50:43.603950 [debug] [MainThread]: Flushing usage events
+[0m19:50:44.659101 [debug] [MainThread]: An error was encountered while trying to flush usage events
