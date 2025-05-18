@@ -125,4 +125,4 @@ Use that IP as host.
 
 ## Dashboard Preview
 
-![Dashboard](visualdiagram.jpeg)
+![Dashboard](screenshot.jpeg)
