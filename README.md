@@ -26,7 +26,6 @@ This will:
   * **database:** `katapay`
 * Start **Metabase** at: [http://localhost:3000](http://localhost:3000)
 
-Initial database is created from `init.sql`.
 
 ## 2. How to run ingestion (`python ingest.py`)
 
